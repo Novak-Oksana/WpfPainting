@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfPainting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPainting"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="530.147" Width="724.581">
+    <Grid>
+        <Canvas Name="canvas" MouseDown="Canvas_MouseDown" MouseMove="Canvas_MouseMove">
+            <Canvas.Background>
+                <SolidColorBrush Color="Red" Opacity="0"/>
+            </Canvas.Background>
+        </Canvas>
+    </Grid>
+</Window>
